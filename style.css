@@ -71,6 +71,18 @@ body {
     color: var(--very-dark-cyan);
 }
 
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 3px #fff;
+    background-color: hsl(0, 0%, 100%, 0);;
+}
+
+.sedans .btn:hover,
+.suvs .btn:hover,
+.luxury .btn:hover {
+    color: #fff;
+}
+
 .sedans {
     background-color: var(--bright-orange);
     border-top-left-radius: 0.5rem;
