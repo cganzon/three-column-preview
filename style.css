@@ -27,6 +27,7 @@ html, body {
 .container {
     width: 90%;
     max-width: 33.75rem;
+    padding-top: 45rem
 }
 
 .section {
