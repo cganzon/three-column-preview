@@ -17,17 +17,16 @@ html, body {
     /* Sets font size to 15px (browser default is 16px) */
     font-size: 93.75%;
     background-color: var(--very-light-grey);
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
 }
 
 .container {
     width: 90%;
     max-width: 33.75rem;
-    padding-top: 45rem
 }
 
 .section {
@@ -97,4 +96,10 @@ html, body {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media(min-width: 390px) {
+    .container {
+        /* padding-top: 35rem; */
+    }
 }
