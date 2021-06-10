@@ -10,7 +10,7 @@
     --very-light-grey: hsl(0, 0%, 95%);
 }
 
-html, body {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,15 +30,14 @@ html, body {
 }
 
 .section {
-    padding: 3rem 4rem 3rem 3.5rem;
+    padding: 3rem
 }
 
 .section h2 {
-    color:var(--very-light-grey);
+    color: var(--very-light-grey);
     text-transform: uppercase;
     font-family: 'Big Shoulders Display', cursive;
     font-size: 2.6rem;
-    padding-left: 0.15rem;
 }
 
 .section p {
@@ -46,7 +45,7 @@ html, body {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1rem;
     line-height: 1.8;
-    padding-bottom: 0.3rem;
+    padding-bottom: 1rem;
 }
 
 .btn {
@@ -91,15 +90,35 @@ html, body {
 .attribution { 
     font-size: 1rem; 
     text-align: center; 
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
 
-@media(min-width: 390px) {
+@media (min-width: 1017px) {
+    body {
+        height: 100vh;
+    }
+
     .container {
-        /* padding-top: 35rem; */
+        display: flex;
+        max-width: 59.5rem;
+    }
+
+    .section p {
+        padding-bottom: 3.5rem;
+    }
+
+    .sedans {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.5rem;
+    }
+
+    .luxury {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
     }
 }
