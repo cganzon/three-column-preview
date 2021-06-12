@@ -50,6 +50,7 @@ body {
 .btn {
     outline: none;
     border: none;
+    text-decoration: none;
     background-color: var(--very-light-grey);
     font-size: 0.95rem;
     font-weight: 500;
