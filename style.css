@@ -26,6 +26,7 @@ body {
 .container {
     width: 90%;
     max-width: 33.75rem;
+    margin: 3rem 0;
 }
 
 .section {
